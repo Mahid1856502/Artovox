@@ -1,13 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+/* eslint-disable react/jsx-filename-extension */
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { ToastContainer } from "react-toastify";
+import "./assets/css/app.scss";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import store from "./app/store";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+      <ToastContainer style={{ zIndex: 10000000000000 }} />
+    </Provider>
   </React.StrictMode>
 );
 

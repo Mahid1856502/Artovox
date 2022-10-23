@@ -1,0 +1,136 @@
+.admin-parameter-wrapper .action-btn {
+    background-color: #B2B5B8;
+}
+
+.all-activity-wrapper .ant-divider-vertical {
+    height: 2.5em;
+    border-left: 2px solid #e6ebf1;
+}
+
+.user-detail-wrapper .bg-light-grey,
+.all-activity-wrapper .bg-light-grey {
+    background-color: #F2F3F5 !important;
+}
+
+.all-activity-wrapper .text-light-grey {
+    color: #A1A1A1 !important;
+}
+
+.activity-log-wrapper .bg-light-grey {
+    background-color: #F2F3F5 !important;
+}
+
+.activity-log-wrapper .search-icon {
+    color: rgba(178, 181, 184, 1);
+}
+
+.activity-log-wrapper .activity-count {
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 50%;
+}
+
+.admin-dashboard-wrapper .bg-blue {
+    background: #00215B;
+}
+
+.admin-dashboard-wrapper .tanent-row .fill-eye {
+    display: none;
+}
+
+.admin-dashboard-wrapper .tanent-row:hover .fill-eye {
+    display: block;
+}
+
+.admin-dashboard-wrapper .tanent-row:hover {
+    background-color: #F2F3F5;
+    color: #00215B;
+}
+
+
+.admin-dashboard-wrapper .custom-scroll {
+    height: 725px;
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+
+.admin-dashboard-wrapper .custom-scroll::-webkit-scrollbar-thumb {
+    background: rgba(217, 217, 217, 1);
+    border-radius: 10px;
+}
+
+.admin-dashboard-wrapper .fixed-height {
+    height: 725px;
+}
+
+.admin-dashboard-wrapper a {
+    color: #595A5C;
+    text-decoration: underline;
+}
+
+
+.admin-dashboard-wrapper .text-light-gray {
+    color: #9C9C9C;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.admin-dashboard-wrapper .chart {
+    position: relative;
+}
+
+.admin-dashboard-wrapper .select {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.admin-dashboard-wrapper .color-green {
+    color: #158582;
+}
+
+.admin-dashboard-wrapper .color-red {
+    color: #DB5461;
+}
+
+.admin-dashboard-wrapper .color-blue {
+    color: #2978A0;
+}
+
+.user-detail-wrapper .projects-count {
+    /* box-shadow: 1px 1px 1px 1px #00215b14 inset; */
+    box-shadow: inset 0 0 4px rgba(0, 33, 91, 0.3);
+    /* border: #9C9C9C 1px solid; */
+    width: 5rem;
+    height: 5rem;
+}
+
+.user-detail-wrapper .custom-height {
+    min-height: 290px;
+    max-height: 290px;
+    height: 100%;
+    overflow-y: auto;
+    list-style-type: none;
+}
+
+.user-detail-wrapper .detail-drawer {
+    min-width: 320px;
+}
+
+.asset-dashboard-wrapper .text-subtitle {
+    color: #969696;
+}
+
+.asset-dashboard-wrapper .bg-light-blue {
+    background-color: #F2F4F7;
+}
+
+.asset-dashboard-wrapper .bg-gray-dark {
+    background-color: #0e141e1a;
+}
+
+.asset-dashboard-wrapper .ant-card-body {
+    padding: 0;
+}

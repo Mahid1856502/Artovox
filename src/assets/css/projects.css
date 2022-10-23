@@ -1,0 +1,476 @@
+.assetDetails .item-valuation-dcf {
+  width: 19px;
+  height: 19px;
+}
+.assetDetails .item-rent-role {
+  width: 22px;
+  height: 22px;
+}
+.assetDetails .item-valuation-setting {
+  width: 17px;
+  height: 17px;
+}
+.assetDetails .item-cash-flows {
+  width: 17px;
+  height: 17px;
+}
+.assetDetails.site-layout-background {
+  padding: 0px !important;
+}
+.assetDetails .ant-menu-horizontal {
+  display: none;
+}
+
+.assetDetails .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #6f7173;
+}
+
+.assetDetails .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  background-color: #ffffff;
+  justify-content: center;
+}
+.assetdetails-tabs-pane {
+  color: #6f7173;
+  font-size: 20px;
+  background-color: red;
+}
+.assetDetails .ant-tabs-tab:hover {
+  color: #00215b;
+}
+
+.incomeAndCost .ant-card-body {
+  padding: 0px 10px 10px !important;
+}
+.incomeAndCost .add-row-btn {
+  border: 0px;
+  background-color: transparent;
+}
+.incomeAndCost .delete-row-btn {
+  color: #ff3636;
+  border: 0px;
+  border-radius: 0px;
+  border-right: 1px solid #9e9e9e;
+  background-color: transparent;
+}
+.incomeAndCost .delete-row-btn:hover {
+  color: #ff3636 !important;
+  border: 0px !important;
+  border-radius: 0px;
+  border-right: 1px solid #9e9e9e !important;
+  background-color: transparent;
+}
+.incomeAndCost .delete-row-btn:focus {
+  color: #ff3636 !important;
+  border: 0px !important;
+  border-radius: 0px;
+  border-right: 1px solid #9e9e9e !important;
+  background-color: transparent;
+}
+.incomeAndCost
+  .ant-btn:not(.ant-btn-primary):not(.ant-btn-dangerous):not(.ant-btn-text):not(.ant-btn-link):focus,
+.ant-btn:not(.ant-btn-primary):not(.ant-btn-dangerous):not(.ant-btn-text):not(.ant-btn-link):hover {
+  color: #00215b;
+}
+
+.reset-dropdown-btn {
+  width: 200px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #00215b;
+}
+.reset-dropdown-btn:hover {
+  color: #ffffff !important;
+  background-color: #00215b !important;
+}
+.calculationComponent .ant-table-thead > tr > th {
+  padding: 11px;
+}
+
+.cashflows-first-btns {
+  width: 500px;
+}
+.cashflows-monthly-btn {
+  color: white;
+  background: #00215b;
+  padding: 10px 45px;
+  border-radius: 4px;
+}
+
+.cashFlowsComponent .cashflows-monthly-btn:hover {
+  background-color: #00215b !important;
+  border: 1px solid #00215b !important;
+  color: #ffffff !important;
+}
+.cashflows-yearly-btn {
+  color: #00215b;
+  background: #ffffff;
+  padding: 10px 45px;
+  border: 1px solid #00215b;
+  border-radius: 4px;
+}
+.cashFlowsComponent
+  .ant-btn:not(.ant-btn-primary):not(.ant-btn-dangerous):not(.ant-btn-text):not(.ant-btn-link):focus,
+.cashFlowsComponent
+  .ant-btn:not(.ant-btn-primary):not(.ant-btn-dangerous):not(.ant-btn-text):not(.ant-btn-link):hover {
+  background-color: #ffffff;
+  border: 1px solid #00215b;
+  color: #00215b;
+}
+.cashFlowsComponent .show-tenants {
+  color: #6f7173;
+  font-size: 15px;
+}
+.cashflows-export-btn,
+.cashflows-export-btn > h5 {
+  background: #ffffff;
+  border-radius: 4px;
+}
+.cashflows-export-btn > h5 {
+  color: #6f7173;
+  font-size: 15px;
+}
+
+.cashflows-filter-icon {
+  color: #6f7173;
+}
+.areaAndIncome .ant-slider-handle:focus {
+  border: 1px solid #eeeeee;
+  box-shadow: none;
+}
+.areaAndIncome .ant-slider-handle {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #b2b5b8;
+  margin-top: -3px;
+  background: white;
+  box-shadow: none;
+  transition: none;
+}
+.areaAndIncome .ant-slider-handle:hover {
+  border: 1px solid #b2b5b8;
+  box-shadow: none;
+}
+.areaAndIncome .ant-slider-rail {
+  height: 8px;
+  background: #eeeeee !important;
+}
+.areaAndIncome .ant-slider-rail:hover {
+  background: #eeeeee;
+}
+.areaAndIncome .empty-input {
+  width: 70px;
+  border: 1px solid #b7b7b7;
+}
+.areaAndIncome .current-rent-indexation-cascader {
+  width: 230px;
+}
+.sqm-text-color {
+  color: #545454;
+}
+.bp-input {
+  width: 50px;
+  border: 1px solid #b7b7b7;
+  padding: 12px;
+}
+.sync-text-color {
+  color: #6f7173;
+}
+.financingComponent .ant-table-tbody > tr > td {
+  padding: 5px !important;
+}
+.first-calculation-table .ant-table-thead > tr > th {
+  font-size: 13px;
+}
+
+.calculation-table
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tbody
+  > tr
+  > td {
+  border: 0px;
+}
+.calculation-table .ant-table table {
+  border-spacing: 0px 8px;
+  color: #000000;
+}
+
+.text-black {
+  color: #000;
+}
+.firstCalculationTable
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table {
+  border: 0px;
+}
+
+#rc-tabs-1-panel-2
+  > div
+  > div:nth-child(5)
+  > div:nth-child(1)
+  > div.holdingPeriod
+  > div
+  > div
+  > div.ant-row
+  > div:nth-child(1)
+  > div {
+  margin: 0px;
+}
+.office-retail-building {
+  display: inline-flex;
+  font-size: 16px;
+  color: #969696;
+}
+.user-modal .ant-col-24.ant-form-item-label > label {
+  color: #000000;
+  font-weight: 500;
+}
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}
+
+.rentRoll .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rentRoll .ant-tabs-nav {
+  margin-bottom: -17px;
+}
+.rentRoll .ant-tabs-nav-list {
+  background: transparent;
+}
+.rentRoll .ant-tabs-tab {
+  background-color: #ffffff;
+  color: #969696;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 4px;
+}
+.rentRoll .ant-tabs-tab:hover {
+  color: #ffffff;
+  background-color: #00215b;
+}
+.rentRoll .ant-tabs-tab-active {
+  color: #ffffff !important;
+  background-color: #00215b !important;
+}
+.rentRoll .ant-tabs-tab:focus {
+  color: #ffffff;
+}
+.rentRoll .ant-tabs-ink-bar {
+  display: none;
+}
+.rentRoll .ant-tabs-tab {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.rentRoll .ant-tabs-tab {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.rentRoll .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+.rentRoll .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn:active {
+  color: #fff !important;
+}
+.ant-table-row-light {
+  background-color: #f2f4f7;
+}
+.ant-table-row-level {
+  background-color: #ffffff;
+}
+
+.calculation-table .ant-table-thead > tr > th {
+  padding: 13px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #00215b;
+  color: #ffffff;
+}
+
+.rentRoll .ant-tabs-nav::before {
+  border-bottom: 0px transparent;
+}
+.counter-field {
+  width: 138px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  padding: 3px;
+  margin: auto;
+}
+.counter-field p {
+  margin-bottom: 0;
+}
+.counter-field .dec-num-btn,
+.counter-field .inc-num-btn {
+  border: 0;
+  background-color: transparent;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter-field .dec-num-btn:hover,
+.counter-field .inc-num-btn:hover,
+.counter-field .dec-num-btn:focus,
+.counter-field .inc-num-btn:focus {
+  background-color: #00215b !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+#rc-tabs-1-panel-2
+  > div
+  > div:nth-child(5)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > tbody {
+  background-color: #f2f4f7;
+}
+
+#rc-tabs-1-panel-2
+  > div
+  > div:nth-child(5)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > thead
+  > tr {
+  display: none;
+}
+
+#rc-tabs-1-panel-2
+  > div
+  > div:nth-child(5)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table.mt-3
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table {
+  border-spacing: 0px 8px;
+}
+.calculation-cascader {
+  width: 270px;
+}
+
+.assumptionsParameter .input-headings {
+  background-color: #f2f4f7;
+  color: #00215b;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 16px;
+}
+
+.assumptionsParameter .ant-input:focus {
+  background-color: #f2f4f7 !important;
+}
+.assumptionsParameter .term-input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.assumptionsParameter .reletting-input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#rc-tabs-1-panel-7
+  > div
+  > div:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table.mt-3
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > thead {
+  display: none;
+}
+#rc-tabs-1-panel-7
+  > div
+  > div:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table.mt-3
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table
+  > tbody {
+  background-color: #f2f4f7;
+}
+#rc-tabs-1-panel-7
+  > div
+  > div:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > div.ant-table-wrapper.second-table.mt-3
+  > div
+  > div
+  > div
+  > div
+  > div
+  > table {
+  border-spacing: 0px 8px;
+}
