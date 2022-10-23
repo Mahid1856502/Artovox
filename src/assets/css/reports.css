@@ -1,0 +1,77 @@
+.rounded-circle-spacing {
+  width: 55px;
+  height: 55px;
+}
+.arrow-up-icon-bg {
+  background-color: #5cdb5c1a;
+}
+.arrow-up-icon {
+  color: #6edf6e;
+  margin: 12px;
+}
+.arrow-down-icon-bg {
+  background-color: #ff36361a;
+}
+.arrow-down-icon {
+  color: #ff5454;
+  margin: 12px;
+}
+.plus-icon-bg {
+  background-color: #ffb4581a;
+}
+.plus-icon {
+  color: #ffb458;
+  margin: 12px;
+}
+.trending-icon-bg {
+  background-color: #6c87ff1a;
+}
+.trending-icon {
+  color: #6c87ff;
+  margin: 12px;
+}
+.users-card-scroll {
+  height: 480px;
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.users-top-icon {
+  background-color: #f2f3f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+.users-name-abbr {
+  border-radius: 5px;
+  background-color: #f2f3f5;
+  padding: 10px 16px;
+}
+.active-badge {
+  background-color: #effbef;
+  color: #6edf6e;
+  border-radius: 30px;
+}
+.most-least-assets {
+  background-color: rgba(108, 135, 255, 0.1);
+  color: #6c87ff;
+  border-radius: 30px;
+}
+.inactive-badge {
+  background-color: rgba(255, 54, 54, 0.1);
+  color: #ff3636;
+  border-radius: 30px;
+}
+.subscriber-badge {
+  background-color: rgba(255, 180, 88, 0.1);
+  color: #ffb458;
+  border-radius: 30px;
+}
+/*
+  .apexcharts-legend-marker{
+    border-radius: 0px !important;
+  }
+  .apexcharts-legend-text{
+    color:#000000 !important;
+    font-weight: 500 !important;
+    padding-left: 6px !important;
+  } */

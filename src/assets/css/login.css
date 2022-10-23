@@ -1,0 +1,286 @@
+.bg-image {
+  background-image: url("../images/login_bg_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pages-component {
+  height: 100vh;
+}
+.sign-in-card {
+  padding: 10px 50px 10px 50px;
+}
+.input-transperant {
+  padding: 0px 23px 10px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 16px;
+  border-radius: 0 !important;
+}
+.input-transperant:focus {
+  box-shadow: none;
+}
+
+.input-transperant::placeholder {
+  font-size: 16px;
+  color: #b2b5b8;
+  font-weight: 500;
+}
+.sign-in-right-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+}
+.sign-in-right-text {
+  color: #ffffff;
+  font-size: 31px;
+  line-height: 40px;
+  font-weight: 200;
+  padding-top: 15px;
+}
+.form-field-link {
+  color: #ff7226 !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+.form-field-link:hover {
+  color: #ff7226;
+  font-size: 15px;
+  font-weight: 700;
+}
+.input-icons {
+  color: #b2b5b8;
+  right: 70px;
+}
+.loginComponent .input-mail-icon {
+  top: 122px;
+}
+.loginComponent .input-key-icon {
+  top: 188px;
+}
+.input-fname-icon {
+  top: 97px;
+}
+.input-lname-icon {
+  top: 160px;
+}
+.signupComponent .input-mail-icon {
+  top: 288px;
+}
+.signupComponent .input-key-icon {
+  top: 353px;
+}
+.signupComponent .input-confirm-key-icon {
+  top: 416px;
+}
+.signupComponent .ant-select-arrow {
+  right: 8px;
+  color: #b2b5b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sign-in-left-title {
+  color: #00215b !important;
+  font-weight: 600 !important;
+  font-size: 30px !important;
+}
+.sign-in-btn {
+  background-color: #00215b !important;
+  font-size: 17px;
+  border-color: #00215b;
+}
+.sign-in-btn:hover {
+  border-color: #00215b;
+  background-color: #00215b;
+}
+
+/* Login Page */
+.loginComponent .forget-pass {
+  font-size: 15px;
+  padding-top: 9px;
+}
+
+.sign-in-card .ant-card-body .ant-form .ant-form-item-has-error {
+  margin-bottom: 0px;
+}
+.signupComponent .antd-custom-select {
+  border-bottom: 1px solid #445366;
+}
+.signupComponent
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border: 0px !important;
+  padding: 0px !important;
+  font-weight: bold;
+  color: #b2b5b8;
+  font-size: 16px;
+}
+.signupComponent .ant-select-selector {
+  box-shadow: none !important;
+}
+.ant-select-selector:focus {
+  box-shadow: none !important;
+  border-color: #00215b !important;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #00215b;
+  box-shadow: none;
+}
+
+/* Forget Password Page*/
+.forgetPasswordComponent .input-mail-icon {
+  width: 20px;
+  height: 18px;
+  color: #b2b5b8;
+  top: 150px;
+}
+
+/* Reset Password Page*/
+.resetComponent .sign-in-text {
+  width: 320px;
+  padding-bottom: 34px;
+}
+
+.resetComponent .input-key-icon {
+  width: 20px;
+  height: 25px;
+  color: #b2b5b8;
+  top: 155px;
+}
+.resetComponent .input-confirm-key-icon {
+  width: 20px;
+  height: 25px;
+  color: #b2b5b8;
+  top: 220px;
+}
+.resetComponent .arrow-icon {
+  width: 20px;
+  height: 20px;
+  color: #595a5c;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+/* Check Mail*/
+.forgetPasswordComponent .free-pik-message {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  background: rgba(0, 33, 91, 0.06);
+  border-radius: 10px;
+}
+.forgetPasswordComponent .free-pik-message-image {
+  padding-top: 20px;
+  width: 45px;
+  height: 74px;
+}
+.forgetPasswordComponent .check-mail-text {
+  width: 250px;
+}
+.forgetPasswordComponent .check-mail-try-again-text {
+  color: #00215b;
+  font-size: 15px;
+  font-weight: 700;
+}
+.ant-form-item-explain-error {
+  margin-bottom: 24px;
+}
+.new-project-search-bar {
+  float: right;
+  gap: 8px;
+  position: absolute;
+  right: 80px;
+  top: 85px;
+}
+.search-form-filter-row .ant-select-selection-placeholder {
+  font-weight: normal;
+  color: #b2b5b8;
+}
+.search-form-filter-row .ant-input::placeholder {
+  font-weight: normal;
+  color: #b2b5b8;
+}
+.ant-input {
+  border-radius: 5px;
+}
+.ant-input:focus {
+  border-color: #00215b;
+}
+.new-table-icon {
+  position: absolute;
+  right: 48px;
+  top: 95px;
+}
+
+.ant-modal-close-x {
+  display: none;
+}
+.ant-select-selector {
+  border-radius: 5px !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:hover {
+  background-color: #00215b !important;
+  border: 1px solid #00215b !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #00215b;
+  border: 1px solid #00215b;
+}
+.ant-checkbox-checked::after {
+  border-color: #00215b;
+}
+.ant-menu-overflow {
+  justify-content: center;
+}
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #00215b;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+  color: #00215b;
+  border-bottom: 2px solid #00215b;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover {
+  color: #00215b;
+  border-bottom: 2px solid #00215b;
+}
+.site-layout-background {
+  border-top: 1px solid #f2f4f7;
+  padding: 0px !important;
+}
+
+.DropdownItems {
+  color: #9b9ea1;
+}
+.DropdownItems:active {
+  color: #00215b;
+}
+.signing-input-fields .ant-input:hover {
+  border-color: #00215b !important;
+}
+.signing-input-fields .ant-input-focused,
+.signing-input-fields .ant-input:focus {
+  border-bottom-color: #00215b !important;
+}
+.ant-input:focus {
+  box-shadow: none;
+}
+.ant-input:hover {
+  border-color: #00215b;
+}
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+  border-color: #00215b;
+}
+.ant-checkbox-input:focus + .ant-checkbox-inner,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #00215b !important;
+}
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  border-color: #00215b !important;
+}

@@ -1,0 +1,103 @@
+.calculation-setting .ant-tabs-tab-btn {
+  margin: 0 0 16px;
+}
+
+.GeneralCalculationSetting .ant-form-item-required {
+  color: #000 !important;
+}
+.GeneralCalculationSetting .ant-card-bordered {
+  border-radius: 5px;
+  background-color: #f2f3f5;
+  font-size: xx-small;
+  padding: 1px;
+}
+.GeneralCalculationSetting .ant-card-head {
+  border-bottom: 2px solid white;
+}
+.GeneralCalculationSetting {
+  padding: 21px;
+}
+
+/* // definit */
+.definitioncalculationSetting h5 {
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+.definitioncalculationSetting .btn-styling {
+  width: 100%;
+}
+.definitioncalculationSetting .ant-card-bordered {
+  border-radius: 5px;
+  background-color: #f2f3f5;
+  font-size: xx-small;
+  padding: 1px;
+}
+.definitioncalculationSetting .ant-card-extra {
+  padding-top: 0px;
+  padding-bottom: "5px" !important;
+}
+.card-head-heading h6 {
+  padding-top: 10px;
+}
+.definitioncalculationSetting {
+  padding: 21px;
+}
+.definitioncalculationSetting .card-head .ant-card-head-title {
+  padding-top: 5px;
+}
+.definitioncalculationSetting .ant-card-head {
+  border-bottom: 2px solid white;
+}
+
+.MarketCalculationSetting .ant-input {
+  text-align: end;
+}
+/* AcquisitionCostsCalculationSetting */
+
+.AcquisitionCostsCalculationSetting .ant-input {
+  text-align: end;
+}
+
+.Consumer .Consumer-input .ant-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* .ant-pagination {
+  justify-content: center;
+} */
+.Consumer .ant-table-thead > tr > th {
+  background: #f2f3f5;
+}
+.Consumer .ant-table {
+  background: #f2f3f5;
+}
+.Consumer-card .image-container {
+  background-color: white;
+  height: 67px;
+  width: 17%;
+  border: 1px solid #b7b7b7;
+}
+.Consumer-card .image-container img {
+  padding: 16px;
+  padding-right: 0px;
+  padding-left: 19px;
+  width: 89%;
+}
+.Consumer-card .ant-card-head-title {
+  padding-top: 5px;
+}
+.Consumer .ant-table-tbody .ant-table-cell {
+  padding-left: 0px;
+  padding-right: 2px;
+  height: 31px;
+}
+.Consumer .ant-table-tbody div {
+  padding-inline: 15px;
+  padding: 2px 7px;
+}
+.Consumer .ant-table-thead .ant-table-cell {
+  text-align: center;
+}
+.Consumer .ant-table-tbody .ant-input {
+  height: 31px;
+}
