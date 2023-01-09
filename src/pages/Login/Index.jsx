@@ -54,8 +54,7 @@ function Index() {
                 <h1 className="sign-in-right-heading">RealState</h1>
                 <h1 className="sign-in-right-heading">Investment Analysis</h1>
                 <p className="sign-in-right-text d-flex align-items-center">
-                  We are here to take your assests into the market with a
-                  compatitive deals.
+                 We are coders
                 </p>
               </div>
             </Col>
